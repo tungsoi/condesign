@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Klift - Free Bootstrap 4 Template by Colorlib</title>
+    <title>CONDESIGN -  Thiết kế nội thất</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -31,19 +31,19 @@
 
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Klift</a>
+	      <a class="navbar-brand" href="index.html">condesign</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	        	<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-	        	<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-	        	<li class="nav-item"><a href="project.html" class="nav-link">Project</a></li>
-	        	<li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-	        	<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	        	<li class="nav-item active"><a href="index.html" class="nav-link">Trang chủ</a></li>
+	        	<li class="nav-item"><a href="#" class="nav-link">Giới thiệu</a></li>
+	        	<li class="nav-item"><a href="#" class="nav-link">Dự án</a></li>
+	        	<li class="nav-item"><a href="#" class="nav-link">Dịch vụ</a></li>
+	        	<li class="nav-item"><a href="#" class="nav-link">Tư vấn</a></li>
+	          <li class="nav-item"><a href="#" class="nav-link">Liên hệ</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -56,9 +56,10 @@
         <div class="container">
           <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-end" data-scrollax-parent="true">
           <div class="col-md-7 text ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">We Create Amazing Architecture Designs</h1>
-            <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-            <p><a href="#" class="btn btn-white btn-outline-white px-4 py-3 mt-3">View our works</a></p>
+            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">THIẾT KẾ THI CÔNG NỘI THẤT
+                </h1>
+            <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Thiết kế nội thất, kiến trúc, thi công trọn gói A đến Z. Kiến trúc sư 10+ năm kinh nghiệm. Lựa chọn phong cách nội thất phù hợp cho căn nhà. Tự thể hiện cá tính riêng.</p>
+            <p><a href="#" class="btn btn-white btn-outline-white px-4 py-3 mt-3">Xem thêm</a></p>
           </div>
         </div>
         </div>
@@ -69,8 +70,9 @@
         <div class="container">
           <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-end" data-scrollax-parent="true">
           <div class="col-md-7 text ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Virtually Build Your House</h1>
-            <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p><p><a href="#" class="btn btn-white btn-outline-white px-4 py-3 mt-3">View our works</a></p>
+            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">THIẾT KẾ THI CÔNG NỘI THẤT
+                </h1>
+            <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Thiết kế nội thất, kiến trúc, thi công trọn gói A đến Z. Kiến trúc sư 10+ năm kinh nghiệm. Lựa chọn phong cách nội thất phù hợp cho căn nhà. Tự thể hiện cá tính riêng.</p><p><a href="#" class="btn btn-white btn-outline-white px-4 py-3 mt-3">Xem thêm</a></p>
           </div>
         </div>
         </div>
@@ -86,8 +88,8 @@
             		<span class="flaticon-idea"></span>
               </div>
               <div class="media-body p-2 mt-3">
-                <h3 class="heading">Perfectly Design</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <h3 class="heading">THIẾT KẾ HOÀN HẢO</h3>
+                <p>Tôn trọng tối đa ý kiến khách hàng đồng thời được gợi ý và lựa chọn phong cách nội thất phù hợp nhất.</p>
               </div>
             </div>
           </div>
@@ -97,8 +99,8 @@
             		<span class="flaticon-compass-symbol"></span>
               </div>
               <div class="media-body p-2 mt-3">
-                <h3 class="heading">Carefully Planned</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <h3 class="heading">THI CÔNG TRỌN GÓI</h3>
+                <p>Là đơn vị thiết kế chuyên nghiệp, chúng tôi phụ trách tổng thể từ giai đoạn thiết kế và sản xuất.</p>
               </div>
             </div>
           </div>
@@ -108,8 +110,8 @@
             		<span class="flaticon-layers"></span>
               </div>
               <div class="media-body p-2 mt-3">
-                <h3 class="heading">Smartly Execute</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <h3 class="heading">NHÂN SỰ CHUYÊN NGHIỆP </h3>
+                <p>Đội ngũ thiết kế gắn liền với thực tế sản xuất với bề dày kinh nghiệm hơn 6 năm nay.</p>
               </div>
             </div>
           </div>
@@ -125,14 +127,16 @@
 					<div class="col-md-7 wrap-about pb-md-5 ftco-animate">
 	          <div class="heading-section mb-5 pl-md-5 heading-section-with-line">
 	          	<div class="pl-md-5 ml-md-5">
-		          	<span class="subheading">About</span>
-		            <h2 class="mb-4">We are the best interior &amp; Architect Consultant in Italy</h2>
+		          	<span class="subheading">VỀ CHÚNG TÔI</span>
+		            <h2 class="mb-4">Đơn vị thiết kế nhà ở chuyên nghiệp, uy tín số 1 tại Hà Nội</h2>
 	            </div>
 	          </div>
 	          <div class="pl-md-5 ml-md-5 mb-5">
-							<p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
-							<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.</p>
-							<p><a href="#" class="btn-custom">Learn More <span class="ion-ios-arrow-forward"></span></a></p>
+                            <p>Được thành lập từ năm 2021, công ty cổ phần Kiến Trúc và Nội thất I.D đã chiếm được lòng tin của nhiều gia đình bởi xu hướng thiết kế đa dạng, đáp ứng được nhu cầu khách hàng</p>
+							<p>Chúng tôi tự hào khi 95% tổng số khách hàng đều hài lòng tuyệt đối về dịch vụ của ID và sẵn sàng chia sẻ tới bạn bè & người thân về tổ ấm của chính họ</p>
+                            <p>Đội ngũ kiến trúc sư tâm huyết với nghề, giàu kinh nghiệm, vững chuyên môn luôn không ngừng sáng tạo để tìm ra những cái mới trong thiết kế và sản xuất vì vậy có thể cung cấp cho Khách hàng những tư vấn xác thực, bổ ích, đem lại lợi ích tối đa cho khách hàng</p>
+                            <p>Không chỉ sáng tạo trong thiết kế mà trong cả quá trình thi công và sản xuất, chúng tôi cũng không ngừng tự hoàn thiện về trình độ cũng như thái độ phục vụ khách hàng. Những sản phẩm nội thất mà chúng tôi mang đến đều được kiểm tra trước khi xuất xưởng để đảm bảo chất lượng tốt nhất khi bàn giao</p>
+                            <p><a href="#" class="btn-custom">Chi tiết <span class="ion-ios-arrow-forward"></span></a></p>
 						</div>
 					</div>
 				</div>
@@ -140,7 +144,7 @@
 		</section>
 
 
-		<section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url({{ asset('assets/decor/images/bg_3.jpg') }});" data-stellar-background-ratio="0.5">
+		{{-- <section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url({{ asset('assets/decor/images/bg_3.jpg') }});" data-stellar-background-ratio="0.5">
     	<div class="container">
     		<div class="row d-md-flex align-items-center justify-content-center">
     			<div class="col-lg-4">
@@ -189,14 +193,14 @@
           </div>
         </div>
     	</div>
-    </section>
+        </section> --}}
 
     <section class="ftco-section">
     	<div class="container">
     		<div class="row justify-content-center mb-5 pb-2">
           <div class="col-md-7 heading-section ftco-animate">
-            <h2 class="mb-4">Our Projects</h2>
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences</p>
+            <h2 class="mb-4">Dự án của chúng tôi</h2>
+            {{-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences</p> --}}
           </div>
         </div>
     	</div>
@@ -206,7 +210,7 @@
     				<div class="project">
 	    				<img src="{{ asset('assets/decor/images/work-1.jpg') }}" class="img-fluid" alt="Colorlib Template">
 	    				<div class="text">
-	    					<h3>Office Interior Design in Paris</h3>
+	    					<h3>Thiết kế nội thất biệt thự</h3>
 	    				</div>
 	    				<a href="{{ asset('assets/decor/images/work-1.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
 	    					<span class="icon-expand"></span>
@@ -217,7 +221,7 @@
     				<div class="project">
 	    				<img src="{{ asset('assets/decor/images/work-2.jpg') }}" class="img-fluid" alt="Colorlib Template">
 	    				<div class="text">
-	    					<h3>Office Interior Design in Paris</h3>
+	    					<h3>Thiết kế nội thất chung cư cao cấp</h3>
 	    				</div>
 	    				<a href="{{ asset('assets/decor/images/work-2.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
 	    					<span class="icon-expand"></span>
@@ -228,7 +232,7 @@
     				<div class="project">
 	    				<img src="{{ asset('assets/decor/images/work-3.jpg') }}" class="img-fluid" alt="Colorlib Template">
 	    				<div class="text">
-	    					<h3>Office Interior Design in Paris</h3>
+	    					<h3>Thiết kế nội thất nhà phố</h3>
 	    				</div>
 	    				<a href="{{ asset('assets/decor/images/work-3.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
 	    					<span class="icon-expand"></span>
@@ -239,7 +243,7 @@
     				<div class="project">
 	    				<img src="{{ asset('assets/decor/images/work-4.jpg') }}" class="img-fluid" alt="Colorlib Template">
 	    				<div class="text">
-	    					<h3>Office Interior Design in Paris</h3>
+	    					<h3>Thiết kế nội thất homestay</h3>
 	    				</div>
 	    				<a href="{{ asset('assets/decor/images/work-4.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
 	    					<span class="icon-expand"></span>
@@ -250,7 +254,7 @@
     	</div>
     </section>
 
-    <section class="ftco-section testimony-section">
+    {{-- <section class="ftco-section testimony-section">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section ftco-animate">
@@ -335,16 +339,16 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> --}}
 
-		<section class="ftco-section">
-			<div class="container">
-				<div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section ftco-animate">
-            <h2 class="mb-4">Our Architect Team</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
-          </div>
-        </div>
+		{{-- <section class="ftco-section">
+                <div class="container">
+                    <div class="row justify-content-center mb-5 pb-3">
+            <div class="col-md-7 heading-section ftco-animate">
+                <h2 class="mb-4">Our Architect Team</h2>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+            </div>
+            </div>
 				<div class="row">
 					<div class="col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
@@ -412,14 +416,15 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> --}}
 
 		<section class="ftco-section">
 			<div class="container">
 				<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section ftco-animate">
-            <h2 class="mb-4">Recent Blog</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+            <h2 class="mb-4">Công trình nổi bật
+            </h2>
+            {{-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p> --}}
           </div>
         </div>
 				<div class="row">
@@ -434,7 +439,9 @@
                   <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
                 </div>
                 <div class="desc pl-3">
-	                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+	                <h3 class="heading"><a href="#">
+                        Phong cách: Hiện Đại – Luxury.
+                    </a></h3>
 	              </div>
               </div>
             </div>
@@ -450,7 +457,7 @@
                   <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
                 </div>
                 <div class="desc pl-3">
-	                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+	                <h3 class="heading"><a href="#">Phong cách: Tân cổ điển</a></h3>
 	              </div>
               </div>
             </div>
@@ -466,7 +473,7 @@
                   <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
                 </div>
                 <div class="desc pl-3">
-	                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+	                <h3 class="heading"><a href="#">Phong cách: Căn hộ chung cư</a></h3>
 	              </div>
               </div>
             </div>
@@ -483,14 +490,15 @@
 					<div class="col-md-7 wrap-about pb-md-5 ftco-animate">
 	          <div class="heading-section mb-md-5 pl-md-5 heading-section-with-line">
 	          	<div class="pr-md-5 mr-md-5">
-		          	<span class="subheading">Perfect</span>
-		            <h2 class="mb-4">We Make Perfection</h2>
+		          	{{-- <span class="subheading">Perfect</span> --}}
+		            <h2 class="mb-4">TẠI SAO CHỌN CONDESIGN?</h2>
 	            </div>
 	          </div>
 	          <div class="pr-md-5 mr-md-5">
-							<p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
-							<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.</p>
-							<p><a href="#" class="btn-custom">Learn More <span class="ion-ios-arrow-forward"></span></a></p>
+                            <p>Trong một thị trường nội thất ngày càng sôi động và đa dạng như ở Việt Nam, CONDESIGN luôn tự hào là đơn vị dẫn đầu và tạo ra xu hướng trong phong cách thiết kế Hiện Đại ( Theo tạp chí kiến trúc Việt Nam bình chọn ) các thiết kế của chúng tôi luôn hướng đến sự hài hoà giữa công năng sử dụng và thẩm mỹ, với ngôn ngữ thiết kế đồng nhất từ mảng khối cho đến màu sắc sao cho mỗi không gian sống luôn là đứa con tinh thần, là nơi mà bạn muốn trở về sau cuối ngày làm việc mệt mỏi.</p>
+							<p>Phong thủy luôn là yếu tố được cân nhắc đầu tiên trong thiết kế nội thất hiện đại của CONDESIGN, nhằm việc tạo không gian sống phù hợp với tuổi, mệnh của gia chủ, giúp hạn chế điềm xấu, tài vận sinh sôi.
+                            </p>
+							{{-- <p><a href="#" class="btn-custom">Learn More <span class="ion-ios-arrow-forward"></span></a></p> --}}
 						</div>
 					</div>
 				</div>
@@ -502,8 +510,8 @@
         <div class="row mb-5">
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Klift</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <h2 class="ftco-heading-2">CONDESIGN</h2>
+              <p>CONDESIGN là doanh nghiệp chuyên cung cấp các dịch vụ từ tư vấn, thiết kế, thi công nội ngoại thất đến xây mới, cải tạo công trình. Với đội ngũ nhân sự giàu kinh nghiệm và tâm huyết với nghề, chúng tôi cam kết mang đến cho khách hàng sự hài lòng tuyệt đối về chất lượng thiết kế và thi công công trình.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -513,34 +521,31 @@
           </div>
           <div class="col-md">
             <div class="ftco-footer-widget mb-4 ml-md-4">
-              <h2 class="ftco-heading-2">Links</h2>
+              <h2 class="ftco-heading-2">Về chúng tôi</h2>
               <ul class="list-unstyled">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Liên hệ</a></li>
+                <li><a href="#">Hợp tác</a></li>
               </ul>
             </div>
           </div>
           <div class="col-md">
              <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Services</h2>
+              <h2 class="ftco-heading-2">Dịch vụ khách hàng</h2>
               <ul class="list-unstyled">
-                <li><a href="#">Architectural Design</a></li>
-                <li><a href="#">Interior Design</a></li>
-                <li><a href="#">Exterior Design</a></li>
-                <li><a href="#">Lighting Design</a></li>
-                <li><a href="#">AutoCAD Service</a></li>
+                <li><a href="#">Tư vấn</a></li>
+                <li><a href="#">Thi công lắp đặt</a></li>
+                <li><a href="#">Hướng dẫn mua hàng</a></li>
+                <li><a href="#">Vận chuyển & Thanh toán</a></li>
               </ul>
             </div>
           </div>
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<h2 class="ftco-heading-2">Thông tin liên hệ</h2>
             	<div class="block-23 mb-3">
 	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
+	                <li><span class="icon icon-map-marker"></span><span class="text">Hà Nội</span></li>
 	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
 	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
 	              </ul>
@@ -552,7 +557,7 @@
           <div class="col-md-12 text-center">
 
             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="" target="_blank">CONDESIGN</a>
   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
           </div>
         </div>
