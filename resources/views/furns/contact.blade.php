@@ -5,7 +5,7 @@
     <div class="container">
       <div class="row d-flex mb-5 contact-info">
         <div class="col-md-12 mb-4">
-          <h2 class="h4">Contact Information</h2>
+          <h2 class="h4">Thông tin liên hệ</h2>
         </div>
         <div class="w-100"></div>
         <div class="col-md-3">
