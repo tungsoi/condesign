@@ -25,7 +25,7 @@ Route::group([
     $router->get('/about', 'HomeController@aboutus')->name('about');
     $router->get('/contact', 'HomeController@contact')->name('contact');
     $router->get('/blog', 'HomeController@blog')->name('blog');
+    $router->get('/service', 'HomeController@service')->name('service');
     $router->get('/products', 'ProductController@index')->name('product');
     $router->get('/product/detail/{id}', 'ProductController@show')->name('product.detail');
-    $router->get('/products/category/{code}', 'ProductController@getByCategoryCode')->name('product.product-by-category');
 });
