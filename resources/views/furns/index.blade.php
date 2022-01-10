@@ -10,8 +10,8 @@
                 <span class="flaticon-idea"></span>
             </div>
             <div class="media-body p-2 mt-3">
-            <h3 class="heading">THIẾT KẾ HOÀN HẢO</h3>
-            <p>Tôn trọng tối đa ý kiến khách hàng đồng thời được gợi ý và lựa chọn phong cách nội thất phù hợp nhất.</p>
+            <h3 class="heading">TƯ VẤN TRỌN GÓI - CHỦ ĐỘNG CÙNG KHÁCH HÀNG</h3>
+            <p>CONDESIGN luôn tôn trọng tối đa cá tính và ý kiến của bạn trong từng thiết kế với gói tư vấn, gợi ý lựa chọn phong cách nội thất phù hợp, gắn liền với sở thích và các sản phẩm trang trí trong tổ ấm.</p>
             </div>
         </div>
         </div>
@@ -21,8 +21,8 @@
                 <span class="flaticon-compass-symbol"></span>
             </div>
             <div class="media-body p-2 mt-3">
-            <h3 class="heading">THI CÔNG TRỌN GÓI</h3>
-            <p>Là đơn vị thiết kế chuyên nghiệp, chúng tôi phụ trách tổng thể từ giai đoạn thiết kế và sản xuất.</p>
+            <h3 class="heading">THIẾT KẾ TINH TẾ - THI CÔNG CHẤT LƯỢNG</h3>
+            <p>Với kinh nghiệm nhiều năm hoạt động trong lĩnh vực thi công nội/ngoại thất, CONDESIGN tự tin sẽ mang đến những giải pháp thiết kế được cập nhật mới, mang phong cách riêng cùng chất lượng thi công cao nhất, tạo nên sự trải nghiệm khác biệt dành cho khách hàng.</p>
             </div>
         </div>
         </div>
@@ -32,8 +32,8 @@
                 <span class="flaticon-layers"></span>
             </div>
             <div class="media-body p-2 mt-3">
-            <h3 class="heading">NHÂN SỰ CHUYÊN NGHIỆP </h3>
-            <p>Đội ngũ thiết kế gắn liền với thực tế sản xuất với bề dày kinh nghiệm hơn 6 năm nay.</p>
+            <h3 class="heading">NHÂN SỰ CHUYÊN NGHIỆP - CÓ TÂM, CÓ TẦM</h3>
+            <p>CONDESIGN luôn đề cao trải nghiệm của mỗi gia đình với tầm nhìn chiến lược trở thành Đơn vị hàng đầu trong lĩnh vực Thiết kế & Thi công nội/ngoại thất tại Việt Nam.</p>
             </div>
         </div>
         </div>
@@ -55,7 +55,7 @@
                     <div class="project">
                         <img src="{{ asset('assets/decor/images/work-1.jpg') }}" class="img-fluid" alt="Colorlib Template">
                         <div class="text">
-                            <h3>Thiết kế nội thất biệt thự</h3>
+                            <h3>BIỆT THỰ</h3>
                         </div>
                         <a href="{{ asset('assets/decor/images/work-1.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
                             <span class="icon-expand"></span>
@@ -66,7 +66,7 @@
                     <div class="project">
                         <img src="{{ asset('assets/decor/images/work-2.jpg') }}" class="img-fluid" alt="Colorlib Template">
                         <div class="text">
-                            <h3>Thiết kế nội thất chung cư cao cấp</h3>
+                            <h3>CHUNG CƯ CAO CẤP</h3>
                         </div>
                         <a href="{{ asset('assets/decor/images/work-2.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
                             <span class="icon-expand"></span>
@@ -77,7 +77,7 @@
                     <div class="project">
                         <img src="{{ asset('assets/decor/images/work-3.jpg') }}" class="img-fluid" alt="Colorlib Template">
                         <div class="text">
-                            <h3>Thiết kế nội thất nhà phố</h3>
+                            <h3>NHÀ PHỐ</h3>
                         </div>
                         <a href="{{ asset('assets/decor/images/work-3.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
                             <span class="icon-expand"></span>
@@ -88,7 +88,7 @@
                     <div class="project">
                         <img src="{{ asset('assets/decor/images/work-4.jpg') }}" class="img-fluid" alt="Colorlib Template">
                         <div class="text">
-                            <h3>Thiết kế nội thất homestay</h3>
+                            <h3>KHÁCH SẠN/HOMESTAY</h3>
                         </div>
                         <a href="{{ asset('assets/decor/images/work-4.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
                             <span class="icon-expand"></span>
@@ -114,14 +114,14 @@
             <a href="{{route('furn.product.detail',1)}}" class="block-20" style="background-image: url({{ asset('assets/decor/images/image_1.jpg') }});">
             </a>
             <div class="text d-flex py-4">
-                <div class="meta mb-3">
+                {{-- <div class="meta mb-3">
                 <div><a href="#">Sep. 20, 2018</a></div>
                 <div><a href="#">Admin</a></div>
                 <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
+                </div> --}}
                 <div class="desc pl-3">
                     <h3 class="heading"><a href="#">
-                        Phong cách: Hiện Đại – Luxury.
+                        PHONG CÁCH HIỆN ĐẠI - RUSTIC
                     </a></h3>
                 </div>
             </div>
@@ -132,13 +132,13 @@
             <a href="{{route('furn.product.detail',1)}}" class="block-20" style="background-image: url({{ asset('assets/decor/images/image_2.jpg') }});">
             </a>
             <div class="text d-flex py-4">
-                <div class="meta mb-3">
+                {{-- <div class="meta mb-3">
                 <div><a href="#">Sep. 20, 2018</a></div>
                 <div><a href="#">Admin</a></div>
                 <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
+                </div> --}}
                 <div class="desc pl-3">
-                    <h3 class="heading"><a href="#">Phong cách: Tân cổ điển</a></h3>
+                    <h3 class="heading"><a href="#">PHONG CÁCH TÂN CỔ ĐIỂN</a></h3>
                 </div>
             </div>
             </div>
@@ -148,13 +148,13 @@
             <a href="{{route('furn.product.detail',1)}}" class="block-20" style="background-image: url({{ asset('assets/decor/images/image_3.jpg') }});">
             </a>
             <div class="text d-flex py-4">
-                <div class="meta mb-3">
+                {{-- <div class="meta mb-3">
                 <div><a href="#">Sep. 20, 2018</a></div>
                 <div><a href="#">Admin</a></div>
                 <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
+                </div> --}}
                 <div class="desc pl-3">
-                    <h3 class="heading"><a href="#">Phong cách: Căn hộ chung cư</a></h3>
+                    <h3 class="heading"><a href="#">PHONG CÁCH BẮC ÂU</a></h3>
                 </div>
             </div>
             </div>
@@ -176,10 +176,13 @@
                         </div>
                     </div>
                     <div class="pr-md-5 mr-md-5">
-                        <p>Trong một thị trường nội thất ngày càng sôi động và đa dạng như ở Việt Nam, CONDESIGN luôn tự hào là đơn vị dẫn đầu và tạo ra xu hướng trong phong cách thiết kế Hiện Đại ( Theo tạp chí kiến trúc Việt Nam bình chọn ) các thiết kế của chúng tôi luôn hướng đến sự hài hoà giữa công năng sử dụng và thẩm mỹ, với ngôn ngữ thiết kế đồng nhất từ mảng khối cho đến màu sắc sao cho mỗi không gian sống luôn là đứa con tinh thần, là nơi mà bạn muốn trở về sau cuối ngày làm việc mệt mỏi.</p>
-                        <p>Phong thủy luôn là yếu tố được cân nhắc đầu tiên trong thiết kế nội thất hiện đại của CONDESIGN, nhằm việc tạo không gian sống phù hợp với tuổi, mệnh của gia chủ, giúp hạn chế điềm xấu, tài vận sinh sôi.
-                        </p>
-                            {{-- <p><a href="#" class="btn-custom">Learn More <span class="ion-ios-arrow-forward"></span></a></p> --}}
+                       <p>1. Chuyên môn nội thất với hơn 10 năm kinh nghiệm tư vấn và triển khai đa dạng các công trình lớn nhỏ trên cả nước. </p>
+                        <p>2. Đội ngũ kiến trúc sư đông đảo, sáng tạo và nhanh nhạy với xu hướng, tự tin có thể thiết kế được đa dạng phong cách nội thất được ưa chuộng nhất hiện nay: Hiện đại, Rustic, Scandinavian, Indochine, Tân cổ điển,...</p>
+                        <p>3. Uy tín đặt lên hàng đầu, khẳng định bằng sự tin tưởng và tín nhiệm sử dụng chất lượng sản phẩm, dịch vụ của hàng trăm khách hàng trên cả nước trong 10 năm qua.</p>
+                        <p>4. Thiết kế khác biệt tạo không gian độc bản cho từng gia chủ nhờ sở hữu Phòng mua riêng biệt, không ngừng học hỏi, tìm tòi để mang sự mới lạ, độc đáo vào từng không gian sống.</p>
+                        <p>5. Ưu tiên bố trí nội thất theo màu sắc và phong thủy, bắt nguồn từ kinh nghiệm và hoạt động đào tạo chuyên sâu, giúp khách hàng luôn có được những trải nghiệm sống thoải mái và an tâm nhất. </p>
+                        <p>6. Tập trung vào các sản phẩm chất lượng cao, mang tính đột phá, giúp gia chủ tối ưu chi phí một cách hiệu quả nhất.</p>
+                           {{-- <p><a href="#" class="btn-custom">Learn More <span class="ion-ios-arrow-forward"></span></a></p> --}}
                     </div>
                 </div>
             </div>

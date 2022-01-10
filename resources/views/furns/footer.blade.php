@@ -5,7 +5,9 @@
                 <div class="col-md">
                   <div class="ftco-footer-widget mb-4">
                     <h2 class="ftco-heading-2">CONDESIGN</h2>
-                    <p>CONDESIGN là doanh nghiệp chuyên cung cấp các dịch vụ từ tư vấn, thiết kế, thi công nội ngoại thất đến xây mới, cải tạo công trình. Với đội ngũ nhân sự giàu kinh nghiệm và tâm huyết với nghề, chúng tôi cam kết mang đến cho khách hàng sự hài lòng tuyệt đối về chất lượng thiết kế và thi công công trình.</p>
+                    <p>
+                        CONDESIGN chuyên tư vấn, thiết kế và thi công nội, ngoại thất trọn gói tất cả các công trình. Với định hướng "CÙNG BẠN KIẾN TẠO KHÔNG GIAN SỐNG", CONDESIGN luôn đề cao phong cách, cá tính và lợi ích của khách hàng trong quá trình thực hiện dự án, cam kết sản phẩm dịch vụ đảm bảo chất lượng cao từ thiết kế, sản xuất và thi công với giá thành hợp lý, tiến độ thích hợp cùng chế độ bảo hành tốt nhất.
+                    </p>
                     <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
                       <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                       <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>

@@ -8,7 +8,7 @@
                 <div class="project">
                     <img src="{{ asset('assets/decor/images/work-1.jpg') }}" class="img-fluid" alt="Colorlib Template">
                     <div class="text">
-                        <h3>Office Interior Design in Paris</h3>
+                        <h3>Thiết kế nội thất chung cư theo phong cách hiện đại.</h3>
                     </div>
                     <a href="{{ asset('assets/decor/images/work-1.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
                         <span class="icon-expand"></span>
@@ -19,7 +19,7 @@
                 <div class="project">
                     <img src="{{ asset('assets/decor/images/work-2.jpg') }}" class="img-fluid" alt="Colorlib Template">
                     <div class="text">
-                        <h3>Office Interior Design in Paris</h3>
+                        <h3>Thiết kế nội thất biệt thự sang trọng, quý phái theo phong cách Tân cổ điển</h3>
                     </div>
                     <a href="{{ asset('assets/decor/images/work-2.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
                         <span class="icon-expand"></span>
@@ -30,7 +30,7 @@
                 <div class="project">
                     <img src="{{ asset('assets/decor/images/work-3.jpg') }}" class="img-fluid" alt="Colorlib Template">
                     <div class="text">
-                        <h3>Office Interior Design in Paris</h3>
+                        <h3>Thiết kế nội thất nhà phố đa năng sở hữu vẻ đẹp sang trọng của phong cách Bắc Âu</h3>
                     </div>
                     <a href="{{ asset('assets/decor/images/work-3.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
                         <span class="icon-expand"></span>
@@ -41,7 +41,7 @@
                 <div class="project">
                     <img src="{{ asset('assets/decor/images/work-4.jpg') }}" class="img-fluid" alt="Colorlib Template">
                     <div class="text">
-                        <h3>Office Interior Design in Paris</h3>
+                        <h3>Thiết kế nội thất homestay mang nhiều trải nghiệm cảm xúc theo phong cách Rustic</h3>
                     </div>
                     <a href="{{ asset('assets/decor/images/work-4.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
                         <span class="icon-expand"></span>
