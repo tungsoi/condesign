@@ -71,6 +71,24 @@ class GeneralController extends AdminController
         $show = new Show(General::findOrFail($id));
 
         $show->field('id', __('ID'));
+        $show->field('title', 'Tiêu đề');
+        $show->status('Trạng thái')->as(function ($val) {
+            return $val == 1 ? 'Đóng' : 'Mở';
+        });
+        $show->type('Loại')->as(function ($val) {
+            if ($val == 1) {
+                return 'Intro';
+            } elseif ($val == 2) {
+                return 'Giới thiệu';
+            } else {
+                return 'Lý do';
+            };
+        });
+
+        $show->description('Mô tả')->as(function ($val) {
+            return strip_tags($val);
+        });
+        $show->pictures()->image();
         $show->field('created_at', __('Created at'));
         $show->field('updated_at', __('Updated at'));
 
