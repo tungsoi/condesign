@@ -88,7 +88,7 @@ class GeneralController extends AdminController
         $show->description('Mô tả')->as(function ($val) {
             return strip_tags($val);
         });
-        $show->pictures()->image();
+        $show->pictures()->image("", 100, 100);
         $show->field('created_at', __('Created at'));
         $show->field('updated_at', __('Updated at'));
 

@@ -3,7 +3,7 @@
         <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-end" data-scrollax-parent="true">
-        <div class="col-md-7 text ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+        <div class="text-justify col-md-7 text ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
           <h1 class="mb-4" style="font-size: 35px;" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">ĐƠN VỊ THIẾT KẾ THI CÔNG NỘI THẤT
               CÙNG BẠN KIẾN TẠO KHÔNG GIAN SỐNG
               </h1>
@@ -18,7 +18,7 @@
         <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-end" data-scrollax-parent="true">
-        <div class="col-md-7 text ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+        <div class="text-justify col-md-7 text ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
           <h1 class="mb-4" style="font-size: 35px;" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">ĐƠN VỊ THIẾT KẾ THI CÔNG NỘI THẤT CÙNG BẠN KIẾN TẠO KHÔNG GIAN SỐNG
               </h1>
           <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">CONDESIGN - đem đến những ý tưởng tuyệt vời nhất về thiết kế, trang trí nội thất độc đáo và cập nhật xu hướng, cùng với các sản phẩm nội thất thanh lịch và tinh tế trong từng đường nét dành cho ngôi nhà của bạn.</p>

@@ -9,7 +9,7 @@
             <div class="icon d-flex justify-content-center align-items-center">
                 <span class="flaticon-idea"></span>
             </div>
-            <div class="media-body p-2 mt-3">
+            <div class="text-justify media-body p-2 mt-3">
             <h3 class="heading">TƯ VẤN TRỌN GÓI - CHỦ ĐỘNG CÙNG KHÁCH HÀNG</h3>
             <p>CONDESIGN luôn tôn trọng tối đa cá tính và ý kiến của bạn trong từng thiết kế với gói tư vấn, gợi ý lựa chọn phong cách nội thất phù hợp, gắn liền với sở thích và các sản phẩm trang trí trong tổ ấm.</p>
             </div>
@@ -20,7 +20,7 @@
             <div class="icon d-flex justify-content-center align-items-center">
                 <span class="flaticon-compass-symbol"></span>
             </div>
-            <div class="media-body p-2 mt-3">
+            <div class=" text-justify media-body p-2 mt-3">
             <h3 class="heading">THIẾT KẾ TINH TẾ - THI CÔNG CHẤT LƯỢNG</h3>
             <p>Với kinh nghiệm nhiều năm hoạt động trong lĩnh vực thi công nội/ngoại thất, CONDESIGN tự tin sẽ mang đến những giải pháp thiết kế được cập nhật mới, mang phong cách riêng cùng chất lượng thi công cao nhất, tạo nên sự trải nghiệm khác biệt dành cho khách hàng.</p>
             </div>
@@ -31,7 +31,7 @@
             <div class="icon d-flex justify-content-center align-items-center">
                 <span class="flaticon-layers"></span>
             </div>
-            <div class="media-body p-2 mt-3">
+            <div class="text-justify  media-body p-2 mt-3">
             <h3 class="heading">NHÂN SỰ CHUYÊN NGHIỆP - CÓ TÂM, CÓ TẦM</h3>
             <p>CONDESIGN luôn đề cao trải nghiệm của mỗi gia đình với tầm nhìn chiến lược trở thành Đơn vị hàng đầu trong lĩnh vực Thiết kế & Thi công nội/ngoại thất tại Việt Nam.</p>
             </div>
@@ -53,46 +53,51 @@
             <div class="row no-gutters">
                 <div class="col-md-6 col-lg-3 ftco-animate">
                     <div class="project">
-                        <img src="{{ asset('assets/decor/images/work-1.jpg') }}" class="img-fluid" alt="Colorlib Template">
-                        <div class="text">
-                            <h3>BIỆT THỰ</h3>
-                        </div>
-                        <a href="{{ asset('assets/decor/images/work-1.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
-                            <span class="icon-expand"></span>
+                        <a href="{{route('furn.product.detail',1)}}">
+                            <img src="{{ asset('assets/decor/images/work-1.jpg') }}" class="img-fluid" alt="Colorlib Template">
+                            <div class="text">
+                                <h3>BIỆT THỰ</h3>
+                            </div>
                         </a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 ftco-animate">
                     <div class="project">
-                        <img src="{{ asset('assets/decor/images/work-2.jpg') }}" class="img-fluid" alt="Colorlib Template">
-                        <div class="text">
-                            <h3>CHUNG CƯ CAO CẤP</h3>
-                        </div>
-                        <a href="{{ asset('assets/decor/images/work-2.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
-                            <span class="icon-expand"></span>
+                        <a href="{{route('furn.product.detail',1)}}">
+                            <img src="{{ asset('assets/decor/images/work-2.jpg') }}" class="img-fluid" alt="Colorlib Template">
+                            <div class="text">
+                                <h3>CHUNG CƯ CAO CẤP</h3>
+                            </div>
                         </a>
+                        {{-- <a href="{{ asset('assets/decor/images/work-2.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
+                            <span class="icon-expand"></span>
+                        </a> --}}
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 ftco-animate">
                     <div class="project">
-                        <img src="{{ asset('assets/decor/images/work-3.jpg') }}" class="img-fluid" alt="Colorlib Template">
-                        <div class="text">
-                            <h3>NHÀ PHỐ</h3>
-                        </div>
-                        <a href="{{ asset('assets/decor/images/work-3.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
-                            <span class="icon-expand"></span>
+                        <a href="{{route('furn.product.detail',1)}}">
+                            <img src="{{ asset('assets/decor/images/work-3.jpg') }}" class="img-fluid" alt="Colorlib Template">
+                            <div class="text">
+                                <h3>NHÀ PHỐ</h3>
+                            </div>
                         </a>
+                        {{-- <a href="{{ asset('assets/decor/images/work-3.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
+                            <span class="icon-expand"></span>
+                        </a> --}}
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 ftco-animate">
                     <div class="project">
-                        <img src="{{ asset('assets/decor/images/work-4.jpg') }}" class="img-fluid" alt="Colorlib Template">
-                        <div class="text">
-                            <h3>KHÁCH SẠN/HOMESTAY</h3>
-                        </div>
-                        <a href="{{ asset('assets/decor/images/work-4.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
-                            <span class="icon-expand"></span>
+                        <a href="{{route('furn.product.detail',1)}}">
+                            <img src="{{ asset('assets/decor/images/work-4.jpg') }}" class="img-fluid" alt="Colorlib Template">
+                            <div class="text">
+                                <h3>KHÁCH SẠN/HOMESTAY</h3>
+                            </div>
                         </a>
+                        {{-- <a href="{{ asset('assets/decor/images/work-4.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
+                            <span class="icon-expand"></span>
+                        </a> --}}
                     </div>
                 </div>
             </div>
@@ -168,7 +173,7 @@
             <div class="row no-gutters">
                 <div class="col-md-5 p-md-5 img img-2 order-md-last" style="background-image: url({{ asset('assets/decor/images/img.jpg') }});">
                 </div>
-                <div class="col-md-7 wrap-about pb-md-5 ftco-animate">
+                <div class="text-justify col-md-7 wrap-about pb-md-5 ftco-animate">
                     <div class="heading-section mb-md-5 pl-md-5 heading-section-with-line">
                         <div class="pr-md-5 mr-md-5">
                             {{-- <span class="subheading">Perfect</span> --}}
