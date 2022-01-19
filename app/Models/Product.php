@@ -25,6 +25,8 @@ class Product extends Model
         'title',
         'description',
         'pictures',
+        'type',
+        'status'
     ];
 
     public function getPicturesAttribute($pictures)

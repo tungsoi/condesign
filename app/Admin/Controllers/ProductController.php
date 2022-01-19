@@ -63,10 +63,8 @@ class ProductController extends AdminController
 
         $grid->column('pictures', 'Ảnh sản phẩm')->display(function () {
             $array = $this->pictures;
-
             if ($array != null && sizeof($array) > 0) {
                 unset($array[0]);
-
                 return $array;
             }
         })->lightbox(['width' => 80, 'height' => 50]);
@@ -114,9 +112,19 @@ class ProductController extends AdminController
             ->rules('mimes:jpeg,png,jpg')
             ->help('Ảnh đầu tiên sẽ hiển thị là ảnh đại diện')
             ->removable();
+        $types = [
+            1 => 'Dự án của chúng tôi',
+            2 => 'Công trình nổi bật',
+            3 => 'Dự án'
+        ];
+        $form->select('type', 'Lựa chọn')->options($types)->rules(['required'])->default(3);
+        $states = [
+            'on'  => ['value' => 1, 'text' => 'Mở', 'color' => 'success'],
+            'off' => ['value' => 0, 'text' => 'Đóng', 'color' => 'danger'],
+        ];
 
+        $form->switch('status', 'Trạng thái')->states($states)->default(1);
         $form->confirm('Xác nhận lưu dữ liệu ?');
-
         $form->disableEditingCheck();
         $form->disableCreatingCheck();
         $form->disableViewCheck();
@@ -126,86 +134,5 @@ class ProductController extends AdminController
         });
 
         return $form;
-    }
-
-    public function getProperty(Request $request)
-    {
-        $product = Product::find($request->get('q'));
-        if ($product) {
-            $options = $product->properties;
-
-            $option_data = [];
-            foreach ($options as $option) {
-                if (!$options) {
-                    return null;
-                }
-
-                $option_data[] = collect([
-                    'id'    =>  $option->id,
-                    'text'  =>  "Size: " . $option->size . " (" . $option->lenght . " x " . $option->width . " x " . $option->height . ")  - "
-                        . ($option->material->title ?? null)
-                        . " - "
-                        . number_format($option->price) . " VND"
-                ]);
-            }
-
-            return $option_data;
-        }
-
-        return null;
-    }
-
-    public function getInfoProduct(Request $request)
-    {
-        $product = Product::find($request->data);
-        $data = [];
-
-        if ($product) {
-            $properties = $product->properties;
-            foreach ($properties as $option) {
-                if (!$properties) {
-                    return null;
-                }
-
-                $data['property'][] = collect([
-                    'id'    =>  $option->id,
-                    'text'  =>  $option->size,
-                    // 'text'  =>  "Size: ".$option->size." (".$option->lenght." x ".$option->width." x ".$option->height.")  - "
-                    //     . ($option->material->title ?? null)
-                    //     ." - "
-                    //     .number_format($option->price)." VND",
-                    'price' => $option->price
-                ]);
-            }
-
-            $pictures = $product->pictures;
-            if ($pictures) {
-                foreach ($pictures as $picture) {
-                    $data['pictures'][] = [
-                        'asset' => $picture,
-                        'link' => asset('uploads/' . $picture)
-                    ];
-                }
-            }
-            return $data;
-        }
-
-        return null;
-    }
-
-
-    public function getPicture(Request $request)
-    {
-        $product_pciture = Product::find($request->data)->pictures;
-        if ($product_pciture) {
-            foreach ($product_pciture as $picture) {
-                $pictures[] = [
-                    'asset' => $picture,
-                    'link' => asset('uploads/' . $picture)
-                ];
-            }
-            return  $pictures;
-        }
-        return null;
     }
 }

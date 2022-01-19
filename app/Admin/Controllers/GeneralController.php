@@ -20,7 +20,8 @@ class GeneralController extends AdminController
     protected $list_type = [
         1 => 'Intro',
         2 => 'Giới thiệu',
-        3 => 'Lý do'
+        3 => 'Lý do',
+        4 => 'Dịch vụ'
     ];
 
     /**
@@ -120,11 +121,11 @@ class GeneralController extends AdminController
         $form->select('type', 'Lựa chọn')->options($types)->rules(['required']);
 
         $states = [
-            'on'  => ['value' => 1, 'text' => 'Đóng', 'color' => 'success'],
-            'off' => ['value' => 0, 'text' => 'Mở', 'color' => 'danger'],
+            'on'  => ['value' => 1, 'text' => 'Mở', 'color' => 'success'],
+            'off' => ['value' => 0, 'text' => 'Đóng', 'color' => 'danger'],
         ];
 
-        $form->switch('status', 'Trạng thái')->states($states);
+        $form->switch('status', 'Trạng thái')->states($states)->default(1);
 
         $form->confirm('Xác nhận lưu dữ liệu ?');
         $form->display('created_at', __('Created At'));
