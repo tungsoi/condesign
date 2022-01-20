@@ -5,7 +5,7 @@ namespace App\Models;
 use Encore\Admin\Traits\AdminBuilder;
 use Illuminate\Database\Eloquent\Model;
 
-class Product extends Model
+class Projects extends Model
 {
     use AdminBuilder;
 

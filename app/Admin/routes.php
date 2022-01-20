@@ -14,7 +14,7 @@ Route::group([
 ], function (Router $router) {
     $router->get('/', 'HomeController@index')->name('home');
     $router->resources([
-        'products'      =>  'ProductController',
+        'projects'      =>  'ProjectsController',
         'general'      =>  'GeneralController',
     ]);
 });
@@ -30,6 +30,6 @@ Route::group([
     $router->get('/contact', 'HomeController@contact')->name('contact');
     $router->get('/blog', 'HomeController@blog')->name('blog');
     $router->get('/service', 'HomeController@service')->name('service');
-    $router->get('/products', 'ProductController@index')->name('product');
-    $router->get('/product/detail/{id}', 'ProductController@show')->name('product.detail');
+    $router->get('/projects', 'ProjectsController@index')->name('projects');
+    $router->get('/projects/detail/{id}', 'ProjectsController@show')->name('projects.detail');
 });

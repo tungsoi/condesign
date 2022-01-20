@@ -2,23 +2,15 @@
 
 namespace App\Admin\Controllers;
 
-use App\Models\Category;
-use App\Models\Material;
-use App\Models\Product;
-use App\Models\ProductProperty;
-use App\Models\Supplier;
+use App\Models\Projects;
 use Encore\Admin\Auth\Database\Menu;
 use Encore\Admin\Controllers\AdminController;
 use Encore\Admin\Form;
 use Encore\Admin\Grid;
 use Encore\Admin\Show;
-use Encore\Admin\Widgets\Table;
-use Illuminate\Http\Request;
-use Encore\Admin\Admin as EncoreAdmin;
-use Illuminate\Support\Str;
 
 
-class ProductController extends AdminController
+class ProjectsController extends AdminController
 {
     /**
      * Title for current resource.
@@ -29,7 +21,7 @@ class ProductController extends AdminController
 
     public function __construct()
     {
-        $this->title = Menu::whereUri('/products')->first()->title;
+        $this->title = Menu::whereUri('/projects')->first()->title;
     }
 
     /**
@@ -39,7 +31,7 @@ class ProductController extends AdminController
      */
     protected function grid()
     {
-        $grid = new Grid(new Product());
+        $grid = new Grid(new Projects());
         $grid->model()->orderBy('id', 'desc');
 
         $grid->expandFilter();
@@ -64,10 +56,22 @@ class ProductController extends AdminController
         $grid->column('pictures', 'Ảnh sản phẩm')->display(function () {
             $array = $this->pictures;
             if ($array != null && sizeof($array) > 0) {
-                unset($array[0]);
+                // unset($array[0]);
                 return $array;
             }
         })->lightbox(['width' => 80, 'height' => 50]);
+        $grid->column('type', 'Loại')->display(function ($val) {
+            if ($val == 1) {
+                return '<span class="label label-success">Dự án của chúng tôi</span>';
+            } elseif ($val == 2) {
+                return '<span class="label label-warning">Công trình nổi bật</span>';
+            } else {
+                return '<span class="label label-danger">Dự án</span>';
+            }
+        });
+        $grid->column('status', 'Trạng thái')->display(function ($val) {
+            return $val == 1 ? '<span class="label label-success"> Mở</span>' :  '<span class="label label-info"> Đóng</span>';
+        });
         $grid->disableColumnSelector();
         $grid->disableBatchActions();
         $grid->paginate(10);
@@ -83,7 +87,7 @@ class ProductController extends AdminController
      */
     protected function detail($id)
     {
-        $show = new Show(Product::findOrFail($id));
+        $show = new Show(Projects::findOrFail($id));
 
         $show->field('id', __('ID'));
         $show->title('Tên dự án');
@@ -105,9 +109,9 @@ class ProductController extends AdminController
      */
     protected function form()
     {
-        $form = new Form(new Product);
+        $form = new Form(new Projects);
         $form->text('title', 'Tên dự án')->rules(['required']);
-        $form->summernote('description', 'Mô tả dự án')->rules(['required']);
+        $form->summernote('description', 'Mô tả dự án');
         $form->multipleFile('pictures', 'Ảnh')
             ->rules('mimes:jpeg,png,jpg')
             ->help('Ảnh đầu tiên sẽ hiển thị là ảnh đại diện')
