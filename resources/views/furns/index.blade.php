@@ -51,55 +51,18 @@
         </div>
         <div class="container-wrap">
             <div class="row no-gutters">
-                <div class="col-md-6 col-lg-3 ftco-animate">
-                    <div class="project">
-                        <a href="{{route('furn.product.detail',1)}}">
-                            <img src="{{ asset('assets/decor/images/work-1.jpg') }}" class="img-fluid" alt="Colorlib Template">
-                            <div class="text">
-                                <h3>BIỆT THỰ</h3>
-                            </div>
-                        </a>
+                @foreach ($projects as $project)
+                    <div class="col-md-6 col-lg-3 ftco-animate">
+                        <div class="project">
+                            <a href="{{route('furn.projects.detail',$project['id'])}}">
+                                <img src="{{URL::asset('/uploads/'.$project['img'])}}" class="img-fluid" alt="Colorlib Template">
+                                <div class="text">
+                                    <h3>{{ $project['title'] ?? '' }}</h3>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-6 col-lg-3 ftco-animate">
-                    <div class="project">
-                        <a href="{{route('furn.product.detail',1)}}">
-                            <img src="{{ asset('assets/decor/images/work-2.jpg') }}" class="img-fluid" alt="Colorlib Template">
-                            <div class="text">
-                                <h3>CHUNG CƯ CAO CẤP</h3>
-                            </div>
-                        </a>
-                        {{-- <a href="{{ asset('assets/decor/images/work-2.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
-                            <span class="icon-expand"></span>
-                        </a> --}}
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 ftco-animate">
-                    <div class="project">
-                        <a href="{{route('furn.product.detail',1)}}">
-                            <img src="{{ asset('assets/decor/images/work-3.jpg') }}" class="img-fluid" alt="Colorlib Template">
-                            <div class="text">
-                                <h3>NHÀ PHỐ</h3>
-                            </div>
-                        </a>
-                        {{-- <a href="{{ asset('assets/decor/images/work-3.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
-                            <span class="icon-expand"></span>
-                        </a> --}}
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 ftco-animate">
-                    <div class="project">
-                        <a href="{{route('furn.product.detail',1)}}">
-                            <img src="{{ asset('assets/decor/images/work-4.jpg') }}" class="img-fluid" alt="Colorlib Template">
-                            <div class="text">
-                                <h3>KHÁCH SẠN/HOMESTAY</h3>
-                            </div>
-                        </a>
-                        {{-- <a href="{{ asset('assets/decor/images/work-4.jpg') }}" class="icon image-popup d-flex justify-content-center align-items-center">
-                            <span class="icon-expand"></span>
-                        </a> --}}
-                    </div>
-                </div>
+                @endforeach
             </div>
         </div>
     </section>
@@ -114,56 +77,26 @@
         </div>
         </div>
         <div class="row">
-        <div class="col-md-4 ftco-animate">
-            <div class="blog-entry">
-            <a href="{{route('furn.product.detail',1)}}" class="block-20" style="background-image: url({{ asset('assets/decor/images/image_1.jpg') }});">
-            </a>
-            <div class="text d-flex py-4">
-                {{-- <div class="meta mb-3">
-                <div><a href="#">Sep. 20, 2018</a></div>
-                <div><a href="#">Admin</a></div>
-                <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div> --}}
-                <div class="desc pl-3">
-                    <h3 class="heading"><a href="#">
-                        PHONG CÁCH HIỆN ĐẠI - RUSTIC
-                    </a></h3>
+            @foreach ($hot as $project )
+            <div class="col-md-4 ftco-animate">
+                <div class="blog-entry">
+                    <a href="{{route('furn.projects.detail',$project['id'])}}" class="block-20" style="background-image: url({{ URL::asset('/uploads/'.$project['img'])}});">
+                    </a>
+                    <div class="text d-flex py-4">
+                        {{-- <div class="meta mb-3">
+                        <div><a href="#">Sep. 20, 2018</a></div>
+                        <div><a href="#">Admin</a></div>
+                        <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                        </div> --}}
+                        <div class="desc pl-3">
+                            <h3 class="heading"><a href="#">
+                                {{ $project['title'] ?? ''}}
+                            </a></h3>
+                        </div>
+                    </div>
                 </div>
             </div>
-            </div>
-        </div>
-        <div class="col-md-4 ftco-animate">
-            <div class="blog-entry" data-aos-delay="100">
-            <a href="{{route('furn.product.detail',1)}}" class="block-20" style="background-image: url({{ asset('assets/decor/images/image_2.jpg') }});">
-            </a>
-            <div class="text d-flex py-4">
-                {{-- <div class="meta mb-3">
-                <div><a href="#">Sep. 20, 2018</a></div>
-                <div><a href="#">Admin</a></div>
-                <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div> --}}
-                <div class="desc pl-3">
-                    <h3 class="heading"><a href="#">PHONG CÁCH TÂN CỔ ĐIỂN</a></h3>
-                </div>
-            </div>
-            </div>
-        </div>
-        <div class="col-md-4 ftco-animate">
-            <div class="blog-entry" data-aos-delay="200">
-            <a href="{{route('furn.product.detail',1)}}" class="block-20" style="background-image: url({{ asset('assets/decor/images/image_3.jpg') }});">
-            </a>
-            <div class="text d-flex py-4">
-                {{-- <div class="meta mb-3">
-                <div><a href="#">Sep. 20, 2018</a></div>
-                <div><a href="#">Admin</a></div>
-                <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div> --}}
-                <div class="desc pl-3">
-                    <h3 class="heading"><a href="#">PHONG CÁCH BẮC ÂU</a></h3>
-                </div>
-            </div>
-            </div>
-        </div>
+            @endforeach
         </div>
         </div>
     </section>
