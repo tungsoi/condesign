@@ -9,7 +9,7 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item "><a href="{{route('furn.home')}}" class="nav-link {{ request()->is('/') ? 'active' : ''}}">Trang chủ</a></li>
                 <li class="nav-item"><a href="{{route('furn.about')}}" class="nav-link {{ request()->is('about') ? 'active' : ''}}">Giới thiệu</a></li>
-                <li class="nav-item"><a href="{{route('furn.projects')}}" class="nav-link {{ request()->is('products') ? 'active' : ''}}">Dự án</a></li>
+                <li class="nav-item"><a href="{{route('furn.projects')}}" class="nav-link {{ request()->is('projects') ? 'active' : ''}}">Dự án</a></li>
                 <li class="nav-item"><a href="{{route('furn.service')}}" class="nav-link {{ request()->is('service') ? 'active' : ''}}">Dịch vụ</a></li>
                 <li class="nav-item"><a href="{{route('furn.contact')}}" class="nav-link {{ request()->is('contact') ? 'active' : ''}}">Liên hệ</a></li>
             </ul>
