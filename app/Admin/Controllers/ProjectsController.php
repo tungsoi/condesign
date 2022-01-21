@@ -17,11 +17,11 @@ class ProjectsController extends AdminController
      *
      * @var string
      */
-    protected $title = "";
+    protected $title = "Dự án";
 
     public function __construct()
     {
-        $this->title = Menu::whereUri('/projects')->first()->title;
+        $this->title = 'Dự án';
     }
 
     /**
