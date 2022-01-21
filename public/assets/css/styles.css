@@ -10425,3 +10425,6 @@ body {
 .no-border-bottom {
     border-bottom : none !important;
 }
+.mr-bottom-20{
+    margin-bottom: 20px;
+}

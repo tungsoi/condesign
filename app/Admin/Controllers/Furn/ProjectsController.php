@@ -36,6 +36,7 @@ class ProjectsController extends Controller
 
     public function show($id)
     {
-        return view('furns.product-detail');
+        $project = Projects::find($id);
+        return view('furns.product-detail', compact('project'));
     }
 }
