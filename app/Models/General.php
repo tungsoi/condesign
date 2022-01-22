@@ -15,7 +15,10 @@ class General extends Model
      * @var string
      */
     protected $table = "general";
-
+    const INTRO = 1;
+    const  GIOI_THIEU = 2;
+    const LY_DO = 3;
+    const DICH_VU = 4;
     /**
      * Fields
      *

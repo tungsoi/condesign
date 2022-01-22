@@ -4,6 +4,7 @@ namespace App\Admin\Controllers\Furn;
 
 use App\Http\Controllers\Controller;
 use App\Models\Category;
+use App\Models\General;
 use App\Models\Product;
 use App\Models\Projects;
 
@@ -31,20 +32,28 @@ class HomeController extends Controller
                 'img' => $project->pictures[0] ?? 'files/img.jpg'
             ];
         };
+        $reason = General::where('status', 1)->where('type', General::LY_DO)->first();
         return view('furns.index')->with([
             'projects' => $arrProject,
-            'hot' => $arrHot
+            'hot' => $arrHot,
+            'reason' => $reason
         ]);
     }
 
     public function aboutus()
     {
-        return view('furns.about');
+        $introduce = General::where('status', 1)->where('type', General::GIOI_THIEU)->first();
+        $reason = General::where('status', 1)->where('type', General::LY_DO)->first();
+        return view('furns.about', with([
+            'introduce' => $introduce,
+            'reason' => $reason,
+        ]));
     }
 
     public function service()
     {
-        return view('furns.service');
+        $service = General::where('status', 1)->where('type', General::DICH_VU)->get();
+        return view('furns.service', compact('service'));
     }
 
 

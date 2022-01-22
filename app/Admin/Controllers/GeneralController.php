@@ -51,8 +51,10 @@ class GeneralController extends AdminController
                 return '<span class="label label-success">Intro</span>';
             } elseif ($val == 2) {
                 return '<span class="label label-warning">Giới thiệu</span>';
+            } elseif ($val == 3) {
+                return '<span class="label label-info">Lý do</span>';
             } else {
-                return '<span class="label label-danger">Lý do</span>';
+                return '<span class="label label-danger">Dịch vụ</span>';
             }
         });
         $grid->column('created_at', __('Created at'));
@@ -81,8 +83,10 @@ class GeneralController extends AdminController
                 return 'Intro';
             } elseif ($val == 2) {
                 return 'Giới thiệu';
-            } else {
+            } elseif ($val == 3) {
                 return 'Lý do';
+            } else {
+                return 'Dịch vụ';
             };
         });
 
@@ -115,8 +119,8 @@ class GeneralController extends AdminController
         $types = [
             1 => 'Intro',
             2 => 'Giới thiệu',
-            3 => 'Lý do'
-
+            3 => 'Lý do',
+            4 => 'Dịch vụ'
         ];
         $form->select('type', 'Lựa chọn')->options($types)->rules(['required']);
 
