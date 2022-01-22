@@ -18,8 +18,8 @@ class HomeController extends Controller
         foreach ($projects as $project) {
             $arrProject[] = [
                 'id' => $project->id,
-                'title' => $project->title,
-                'img' => $project->pictures[0] ?? 'files/img.jpg'
+                'title' => $project->title ?? '',
+                'img' => $project->pictures ? $project->pictures[0] : 'files/img.jpg'
             ];
         };
 
@@ -28,15 +28,20 @@ class HomeController extends Controller
         foreach ($projectHost as $project) {
             $arrHot[] = [
                 'id' => $project->id,
-                'title' => $project->title,
-                'img' => $project->pictures[0] ?? 'files/img.jpg'
+                'title' => $project->title ?? '',
+                'img' => $project->pictures ? $project->pictures[0] : 'files/img.jpg'
             ];
         };
         $reason = General::where('status', 1)->where('type', General::LY_DO)->first();
+        $dataReason = [
+            'title' => $reason->title ?? '',
+            'description' => $reason->description ?? '',
+            'img' => $reason->pictures ? $reason->pictures[0] : '',
+        ];
         return view('furns.index')->with([
             'projects' => $arrProject,
             'hot' => $arrHot,
-            'reason' => $reason
+            'reason' => $dataReason
         ]);
     }
 
