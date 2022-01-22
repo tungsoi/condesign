@@ -36,7 +36,7 @@ class HomeController extends Controller
         $dataReason = [
             'title' => $reason->title ?? '',
             'description' => $reason->description ?? '',
-            'img' => $reason->pictures ? $reason->pictures[0] : '',
+            'img' => !empty($reason->pictures) ? $reason->pictures[0] : '',
         ];
         return view('furns.index')->with([
             'projects' => $arrProject,
@@ -48,10 +48,20 @@ class HomeController extends Controller
     public function aboutus()
     {
         $introduce = General::where('status', 1)->where('type', General::GIOI_THIEU)->first();
+        $dataIntroduce = [
+            'title' => $introduce->title ?? '',
+            'description' => $introduce->description ?? '',
+            'img' => !empty($introduce->pictures) ? $introduce->pictures[0] : '',
+        ];
         $reason = General::where('status', 1)->where('type', General::LY_DO)->first();
+        $dataReason = [
+            'title' => $reason->title ?? '',
+            'description' => $reason->description ?? '',
+            'img' => !empty($reason->pictures) ? $reason->pictures[0] : '',
+        ];
         return view('furns.about', with([
-            'introduce' => $introduce,
-            'reason' => $reason,
+            'introduce' => $dataIntroduce,
+            'reason' => $dataReason,
         ]));
     }
 
