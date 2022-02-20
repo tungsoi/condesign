@@ -30,6 +30,7 @@ Route::group([
     $router->get('/contact', 'HomeController@contact')->name('contact');
     $router->get('/blog', 'HomeController@blog')->name('blog');
     $router->get('/service', 'HomeController@service')->name('service');
+    $router->get('/service/detail/{id}', 'HomeController@detailService')->name('service.detailService');
     $router->get('/projects', 'ProjectsController@index')->name('projects');
     $router->get('/projects/detail/{id}', 'ProjectsController@show')->name('projects.detail');
 });

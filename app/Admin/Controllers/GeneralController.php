@@ -78,6 +78,7 @@ class GeneralController extends AdminController
         $show->status('Trạng thái')->as(function ($val) {
             return $val == 1 ? 'Đóng' : 'Mở';
         });
+
         $show->type('Loại')->as(function ($val) {
             if ($val == 1) {
                 return 'Intro';

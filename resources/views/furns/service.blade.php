@@ -44,7 +44,7 @@
                             <div class="{{ $key%2 == 0 ? 'pr-md-5 mr-md-5' : 'pl-md-5 ml-md-5 mb-5' }}">
                                 {!! $item['description'] ?? '' !!}
                             <p>
-                                {{-- <a href="#" class="btn-custom">Chi tiết <span class="ion-ios-arrow-forward"></span></a> --}}
+                                <a href="{{route('furn.service.detailService',$item['id'])}}" class="btn-custom">Chi tiết <span class="ion-ios-arrow-forward"></span></a>
                             </p>
                             </div>
                         </div>

@@ -71,6 +71,11 @@ class HomeController extends Controller
         return view('furns.service', compact('service'));
     }
 
+    public function detailService($id)
+    {
+        $service = General::where('status', 1)->where('type', General::DICH_VU)->where('id', $id)->first();
+        return view('furns.service-detail', compact('service'));
+    }
 
     public function contact()
     {
