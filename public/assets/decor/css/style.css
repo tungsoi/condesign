@@ -1527,6 +1527,21 @@ pre {
       border: 0; } }
 
 @media (max-width: 991.98px) {
+    .height-re{
+        height: 0px !important;
+    }
+    .title-hot-re{
+        width: 100% !important;
+    }
+    .container .re-bottom{
+        margin-bottom: 0rem !important;
+    }
+    body .re-top{
+        margin-top: -4rem !important;
+    }
+    .re-padding-top{
+        padding: 0rem !important;
+    }
     #banner-cs{
         display: none;
     }

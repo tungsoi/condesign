@@ -40,11 +40,11 @@
         </div>
         </div>
     </section>
-    <section class="ftco-section">
+    <section class="ftco-section re-top">
         <div class="container">
-            <div class="row justify-content-center mb-5 pb-2">
+            <div class="re-bottom row justify-content-center mb-5 pb-2 ">
           <div class="col-md-7 heading-section ftco-animate">
-            <h2 class="mb-4">Dự án của chúng tôi</h2>
+            <h2 class="mb-4 my-product">Dự án của chúng tôi</h2>
             {{-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences</p> --}}
           </div>
         </div>
@@ -67,9 +67,9 @@
         </div>
     </section>
 
-    <section class="ftco-section">
+    <section class="ftco-section re-padding-top">
         <div class="container">
-            <div class="row justify-content-center mb-5 pb-3">
+            <div class=" re-bottom row justify-content-center mb-5 pb-3">
             <div class="col-md-7 heading-section ftco-animate">
             <h2 class="mb-4">Công trình nổi bật
             </h2>
@@ -88,7 +88,7 @@
                         <div><a href="#">Admin</a></div>
                         <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
                         </div> --}}
-                        <div class="desc pl-3">
+                        <div class="desc pl-3 title-hot-re">
                             <h3 class="heading"><a href="#">
                                 {{ $project['title'] ?? ''}}
                             </a></h3>
@@ -104,7 +104,7 @@
     <section class="ftco-section ftc-no-pb">
         <div class="container">
             <div class="row no-gutters">
-                <div class="col-md-5 p-md-5 img img-2 order-md-last" style="background-image: url({{ URL::asset('/uploads/'.$reason['img'])}});">
+                <div class="col-md-5 p-md-5 img img-2 order-md-last height-re" style="background-image: url({{ URL::asset('/uploads/'.$reason['img'])}});">
                 </div>
                 <div class="text-justify col-md-7 wrap-about pb-md-5 ftco-animate">
                     <div class="heading-section mb-md-5 pl-md-5 heading-section-with-line">
