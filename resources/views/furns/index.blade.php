@@ -1,7 +1,7 @@
 @extends('furns.layout')
 @section('title', 'Tìm chuyến bay')
 @section('content')
-    <section class="ftco-services bg-light">
+    <section class="ftco-services bg-light" id="banner-cs">
         <div class="container">
             <div class="row">
         <div class="col-md-4 d-flex align-self-stretch ftco-animate">

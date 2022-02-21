@@ -1,4 +1,4 @@
-<section class="home-slider js-fullheight owl-carousel">
+<section class="home-slider js-fullheight owl-carousel" id="banner-cs">
     <div class="slider-item js-fullheight" style="background-image:url({{ asset('assets/decor/images/bg_1.jpg') }});">
         <div class="overlay"></div>
       <div class="container">
